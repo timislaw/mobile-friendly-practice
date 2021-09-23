@@ -4,10 +4,16 @@ left: 45%;
 top: 20%;
 color: white;
 }
-
+#newgradient{
+    stop-color:rgba(0,29,36,1);
+}
 @media only screen and (max-width: 1024px){
     header {
         background-color: wheat;
+    }
+    #newgradient{
+        stop-color: orange;
+        stop-opacity: 2;
     }
 }
 @media only screen and (max-width: 768px){
