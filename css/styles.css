@@ -4,6 +4,18 @@ left: 45%;
 top: 20%;
 color: white;
 }
-.heading-2{
 
+@media only screen and (max-width: 1024px){
+    body {
+        background-color: wheat;
+    }
+}
+@media only screen and (max-width: 768px){
+    body {
+        background-color: black;
+    }
+}@media only screen and (max-width: 480px){
+    body {
+        background-color: yellow;
+    }
 }
